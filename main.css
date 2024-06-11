@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter;
+}
+.container {
+  margin-inline: auto;
+  width: 100%;
+  max-width: 1180px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.openBtn {
+  padding: 20px 25px;
+  background-color: black;
+  outline: none;
+  font-size: 18px;
+  font-family: Inter;
+  border-style: none;
+  border-radius: 20px;
+  color: whitesmoke;
+}
+.showOverlay {
+  display: block;
+  background-color: black;
+  position: absolute;
+  opacity: 0.9;
+  height: 100vh;
+  width: 100%;
+  transition: all 500ms ease-in;
+  z-index: 3;
+}
+.showModal {
+  background-color: whitesmoke;
+  padding: 50px 60px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 40%;
+  justify-content: center;
+  flex-direction: column;
+  display: block;
+  z-index: 5;
+}
+.showModal p {
+  padding-top: 2px;
+  font-weight: 500;
+  text-align: center;
+}
+.modal {
+  display: none;
+}
+.close {
+  width: 25px;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+.accept__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.acceptBtn {
+  margin-top: 1.25rem;
+  padding: 10px 25px;
+  background-color: black;
+  color: white;
+  outline: none;
+  border-style: none;
+  border-radius: 1rem;
+}
