@@ -5,7 +5,7 @@ Getting Started:
 Clone the repository:
 
 Bash
-git clone [https://your_username@github.com/your_repo_name.git](https://github.com/emmdeveloper/modal_javascript)
+git clone https://github.com/emmdeveloper/modal_javascript
 Use code with caution.
 content_copy
 Open the project in your code editor.
@@ -39,12 +39,3 @@ Implement keyboard accessibility to open and close the modal using keyboard keys
 Allow for different modal sizes to accommodate varying content needs.
 I hope this README provides a clear understanding of the modal project and its functionalities. Feel free to explore the code and customize it to fit your specific needs!
 
-
-
-
-tune
-
-share
-
-
-more_vert
